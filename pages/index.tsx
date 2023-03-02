@@ -9,8 +9,9 @@ import Contact from "../components/Contact";
 import Blog from "../components/Blog";
 import Feature2 from "../components/Feature2";
 import Feature3 from "../components/Feature3";
+import Companies from "../components/Companies";
 
-const inter = Inter({ subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
+      <Companies />
       <Feature />
       <Feature2 />
       <Feature3 />
